@@ -31,7 +31,7 @@ pipeline {
             }
 
             steps{
-                '''
+                sh '''
                 test -f build/index.htnl
                 npm test
 
